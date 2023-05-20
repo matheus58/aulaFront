@@ -1,0 +1,159 @@
+/* Este código define o estilo para o corpo da página */
+body {
+  background-image: url(img/fundo.jpg); /* Define a imagem de fundo */
+  background-size: cover; /* Redimensiona a imagem de fundo para cobrir todo o corpo */
+  font-family:  'Fira Code', monospace;
+  font-size: large;
+  color:rgb(10, 2, 26); /* Define a cor do texto */
+}
+
+/* Este código define o estilo para o cabeçalho */
+header {
+  text-align: center; /* Centraliza o conteúdo dentro do cabeçalho */
+  position: fixed; /* Fixa o cabeçalho na parte superior da página */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1); /* Define a cor de fundo com transparência */
+}
+
+/* Este código define o estilo para a navegação */
+nav {
+  display: flex; /* Define a navegação como um flex container */
+  justify-content: center; /* Centraliza os itens da navegação horizontalmente */
+}
+
+/* Este código define o estilo para a lista não ordenada dentro da navegação */
+nav ul {
+  list-style-type: none; /* Remove os marcadores de lista */
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Esconde qualquer conteúdo que extrapole o tamanho do contêiner */
+}
+
+/* Este código define o estilo para cada item da lista na navegação */
+nav ul li {
+  display: inline-block; /* Exibe os itens horizontalmente */
+}
+
+/* Este código define o estilo para os links dentro dos itens da lista na navegação */
+nav ul li a {
+  display: block; /* Transforma os links em blocos para ocupar todo o espaço disponível */
+  padding: 10px 20px; /* Define o preenchimento interno dos links */
+  text-decoration: none; /* Remove a decoração do texto dos links */
+  color: #fff; /* Define a cor do texto dos links */
+}
+
+/* Este código define o estilo para os links quando o cursor está sobre eles */
+nav ul li a:hover {
+  background-color: #ddd; /* Define a cor de fundo quando o link está sendo hoverado */
+}
+.iconis{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 200px;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-top: 50px;
+}
+.iconis img {
+  max-width: 100%;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  transition: transform 0.3s ease-in-out;
+  transform-origin: center center; /* Define o ponto de origem da transformação */
+}
+
+.iconis:hover img {
+  transform: rotate(45deg); /* Aplica a rotação de 45 graus */
+}
+
+.round-image {
+  width: 300px; /* Defina a largura desejada */
+  height: 300px; /* Defina a altura desejada */
+  border-radius: 50%;
+  object-fit: cover; /* Certifique-se de que a imagem ocupe todo o espaço dentro do círculo */
+  object-position: center top;
+}
+.conteudo {
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 180px;
+  display: flex;
+  align-items: center;
+}
+
+.texto {
+  flex: 1;
+  text-align: left;
+  font-family: 'Fira Code', monospace;
+  font-size: xx-large;
+  color: #fbfcff;
+}
+
+.imagem {
+  flex: 1;
+  text-align: right;
+}
+
+.imagem img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+.Sobremim{
+  display: flex;
+}
+.Tsobremim{
+  background-color: #f1f1f1; /* Define a cor de fundo da caixa */
+  border: px solid #ccc; /* Define a borda da caixa */
+  padding: 10px; /* Define o espaçamento interno da caixa */
+  width: 500px; /* Define a largura da caixa */
+  margin-left:30px;
+  margin-right: 100px;
+}
+
+.Tsobremim h1{
+   
+    font-family: 'Fira Code', monospace;
+    font-size: xx-large;
+    color: rgb(47, 10, 10);
+}
+.Tsobremim p{
+  font-size: large;
+  color: rgb(2, 9, 19);
+  font-family: 'Fira Code', monospace;
+}
+.map{
+  float: top; /* Define o posicionamento do elemento à direita */
+  width: 400px; /* Define a largura do elemento */
+  height: 400px; /* Define a altura do elemento */
+  margin-right: 30cm;
+}
+.caixap{
+  margin-top: 100px;
+  background-color: #f1f1f1; /* Define a cor de fundo da caixa */
+  border: px solid #ccc; /* Define a borda da caixa */
+  padding: 10px; /* Define o espaçamento interno da caixa */
+  width: 500px; /* Define a largura da caixa */
+  margin-left:30px;
+  margin-right: 100px;
+}
+.caixap a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 200px;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-top: 50px;
+}
+
+.contatos{
+  font-size: 20px; 
+  text-align: center;
+  display: flex;
+  display: block;
+  list-style: none; 
+}
+
